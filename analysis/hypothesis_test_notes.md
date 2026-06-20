@@ -1,4 +1,4 @@
-<img width="154" height="47" alt="image" src="https://github.com/user-attachments/assets/77dbe697-2221-4807-9395-16b869218e38" /># Hypothesis Testing Notes
+# Hypothesis Testing Notes
 
 ## Objective
 
