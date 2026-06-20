@@ -169,3 +169,128 @@ The KPI tree demonstrates that conversion growth is driven by attracting the rig
 Therefore, any recommendation regarding the onboarding campaign should consider both improvements in the North Star Metric and the stability of guardrail metrics.
 
 
+# 4. Experiment Result Summary
+
+The Treatment group outperformed the Control group across several key metrics.
+
+| Metric                          | Control | Treatment |
+| ------------------------------- | ------- | --------- |
+| Average Days to Convert         | 8.86    | 6.40      |
+| Average Engagement Score        | 57.03   | 62.94     |
+| Average Revenue Per User (ARPU) | 51.97   | 54.25     |
+| Refund Rate                     | 0.00%   | 0.42%     |
+| Support Ticket Rate             | 9.28%   | 16.06%    |
+
+The Treatment experience resulted in faster activation, stronger engagement, and improved revenue generation.
+
+---
+
+# 5. Hypothesis Test Interpretation
+
+A Two-Sample t-Test Assuming Unequal Variances was conducted using the Paid Conversion Rate metric.
+
+### Hypotheses
+
+**Null Hypothesis (H₀):**
+The Treatment onboarding experience does not improve paid conversion.
+
+**Alternative Hypothesis (H₁):**
+The Treatment onboarding experience improves paid conversion.
+
+### Results
+
+* Significance Level (α): 0.05
+* P-value: 0.00054
+
+Because the p-value is substantially below 0.05, the null hypothesis was rejected.
+
+### Interpretation
+
+There is strong statistical evidence that the Treatment onboarding experience improves paid conversion relative to the existing onboarding flow.
+
+---
+
+# 6. Guardrail Analysis
+
+Several guardrail metrics were evaluated to ensure that conversion gains did not create unintended negative consequences.
+
+| Metric                 | Assessment                                 |
+| ---------------------- | ------------------------------------------ |
+| Refund Rate            | Slight increase but remains low            |
+| Support Ticket Rate    | Significant increase and primary risk area |
+| Days to Convert        | Improved                                   |
+| Engagement Score       | Improved                                   |
+| Revenue Quality (ARPU) | Improved                                   |
+
+The increase in support ticket volume suggests that some users may be experiencing confusion or friction during onboarding. However, improvements in engagement, conversion speed, and revenue quality indicate that the overall customer value proposition remains stronger under the Treatment experience.
+
+---
+
+# 7. Segment-Level Insight
+
+Segment analysis was performed across:
+
+* Region
+* Device Type
+* Traffic Source
+
+Overall, Treatment performance remained positive across major user segments and no significant segment-level declines were observed.
+
+This suggests that the onboarding improvements are broadly applicable and not limited to a specific audience group.
+
+---
+
+# 8. Final Recommendation
+
+## Recommendation: Launch (Phased Rollout)
+
+The Treatment onboarding experience should be launched through a phased rollout strategy.
+
+### Reasons
+
+1. Statistically significant improvement in the primary success metric.
+2. Higher user engagement.
+3. Faster conversion to paid subscription.
+4. Higher Average Revenue Per User.
+5. No major deterioration in revenue quality.
+
+### Rollout Conditions
+
+* Monitor support ticket volume closely.
+* Investigate onboarding steps generating user confusion.
+* Continue tracking refund rates after launch.
+* Review user feedback during rollout.
+
+---
+
+# 9. Risks and Limitations
+
+## Risks
+
+* Increased support ticket volume may increase operational workload.
+* Some onboarding elements may require refinement to reduce user confusion.
+
+## Limitations
+
+* The experiment measures short-term outcomes only.
+* Long-term retention and customer lifetime value were not available.
+* Root causes of support tickets were not included in the dataset.
+* Some segment-level analyses may have limited sample sizes.
+
+---
+
+# 10. Next Steps
+
+1. Launch the Treatment experience gradually to a larger percentage of users.
+2. Monitor support ticket trends and user feedback.
+3. Investigate onboarding steps associated with increased support requests.
+4. Continue tracking conversion, engagement, revenue, and refund metrics.
+5. Conduct a follow-up analysis after rollout to evaluate long-term retention and customer lifetime value.
+
+---
+
+# Conclusion
+
+The Treatment onboarding experience delivers meaningful improvements in conversion, engagement, conversion speed, and revenue generation. While the increase in support ticket volume warrants attention, the overall evidence strongly supports a phased rollout of the new onboarding campaign.
+
+
