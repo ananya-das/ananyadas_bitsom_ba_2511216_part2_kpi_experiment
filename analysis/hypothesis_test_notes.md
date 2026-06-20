@@ -1,4 +1,4 @@
-# Hypothesis Testing Notes
+<img width="154" height="47" alt="image" src="https://github.com/user-attachments/assets/77dbe697-2221-4807-9395-16b869218e38" /># Hypothesis Testing Notes
 
 ## Objective
 
@@ -150,3 +150,43 @@ If conversion improves significantly but guardrail metrics worsen substantially:
 The outcome of this hypothesis test directly determines whether the new onboarding campaign creates measurable business value.
 
 A statistically significant increase in paid conversion rate, combined with acceptable guardrail performance, would provide evidence to support launching the Treatment experience to all users. Conversely, a lack of statistical significance or deterioration in guardrail metrics would suggest retaining the current onboarding experience or conducting further testing.
+
+# Task 7: Hypothesis Test Results
+
+## Test Performed
+
+Two-Proportion Z-Test comparing Paid Conversion Rate between Control and Treatment groups.
+
+## Test Inputs
+
+| Metric          | Control  | Treatment |
+| --------------- | -------- | --------- |
+| Total Users     | 690  | 710   |
+| Converted Users | 22  | 50   |
+| Conversion Rate | 3.19% | 7.04%  |
+
+## Test Output
+
+| Statistic          | Value   |
+| ------------------ | ------- |
+| Z Statistic        | 3.263 |
+| P-value            | 0.00054 |
+| Significance Level | 0.05    |
+
+## Decision Rule
+
+* Reject H₀ if p-value < 0.05
+* Fail to reject H₀ if p-value ≥ 0.05
+
+## Result
+
+Reject H₀ 
+
+## Business Interpretation
+
+The Treatment onboarding experience produced a paid conversion rate of 7.04% compared with 3.19% for the Control experience.
+
+Because the p-value was 0.0005, the observed difference is not statistically significant at the 5% significance level.
+
+Based on this result, there is high statistically significant evidence that the new onboarding campaign improves user conversion. The rollout decision should also consider guardrail metrics such as refunds, support tickets, and engagement before a final recommendation is made.
+
