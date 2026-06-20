@@ -190,3 +190,24 @@ Because the p-value was 0.0005, the observed difference is not statistically sig
 
 Based on this result, there is high statistically significant evidence that the new onboarding campaign improves user conversion. The rollout decision should also consider guardrail metrics such as refunds, support tickets, and engagement before a final recommendation is made.
 
+# Guardrail Metrics Evaluation
+
+To ensure the recommendation is not based solely on conversion improvement, key guardrail metrics were reviewed.
+
+| Metric                   | Control | Treatment | Assessment                              |
+| ------------------------ | ------- | --------- | --------------------------------------- |
+| Refund Rate              | 0.00%   | 0.42%     | Slight increase, low risk               |
+| Support Ticket Rate      | 9.28%   | 16.06%    | Significant increase, potential concern |
+| Average Days to Convert  | 8.86    | 6.40      | Faster conversion, positive outcome     |
+| Average Engagement Score | 57.03   | 62.94     | Higher engagement, positive outcome     |
+| ARPU                     | 51.97   | 54.25     | Improved revenue quality                |
+
+## Interpretation
+
+The Treatment group showed stronger engagement, faster conversion, and higher revenue per user, indicating that the onboarding experience improved user activation and business outcomes.
+
+The main risk identified was the increase in support ticket rate, which may indicate additional onboarding friction or user confusion. Refund rates increased slightly but remained very low overall.
+
+## Conclusion
+
+Overall, the guardrail metrics support the positive conversion results. While support ticket volume should be monitored and investigated, the Treatment experience appears to generate better business outcomes without introducing significant customer or revenue risks.
