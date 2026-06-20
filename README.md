@@ -238,7 +238,7 @@ Revenue outliers were retained because they may represent legitimate high-value 
 
 ### 6. Segment Distribution Across Groups
 
-To verify successful randomization, key user segments were compared between Control and Treatment groups. Available in sheet 'Working Data`
+To verify successful randomization, key user segments were compared between Control and Treatment groups. Available in sheet `Data_Cleaning_Summary`
 
 #### Region Distribution
 
